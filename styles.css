@@ -138,3 +138,28 @@ h2 {
     border: 2px solid #3882F6;
     border-radius: 1rem;
 }
+
+/* Testimonial Section */
+#testimonials-section {
+    height: 100vh;
+    color: #1F2937;
+    font-size: 3.6rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.testimonial-box {
+    width: 70rem;
+}
+
+.quote {
+    font-style: italic;
+    padding: 2rem 0;
+}
+
+.quote-author {
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-end;
+}

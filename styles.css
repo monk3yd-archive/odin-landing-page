@@ -141,7 +141,7 @@ h2 {
 
 /* Testimonial Section */
 #testimonials-section {
-    height: 100vh;
+    height: 50vh;
     color: #1F2937;
     font-size: 3.6rem;
     display: flex;
@@ -162,4 +162,50 @@ h2 {
     font-weight: 700;
     display: flex;
     justify-content: flex-end;
+}
+
+/* Call to Action */
+#call-to-action-section {
+    height: 40vh;
+}
+
+.action-box {
+    color: #E5E7EB;
+    background-color: #3882F6;
+    padding: 3rem 9rem;
+    border-radius: 0.5rem;
+    margin: 8rem;
+
+    display: flex;
+    align-items: center;
+}
+
+.action-call {
+    font-weight: 700;
+}
+
+.action-sign-call {
+    font-size: 1.4rem;
+}
+
+.sign-up-action {
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    border-radius: 0.5rem;
+    padding: 0.5rem 4rem;
+    margin-left: auto;
+}
+
+/* Footer */
+
+footer {
+    height: 10vh;
+    background-color: #1F2937;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 1.4rem;
 }

@@ -15,7 +15,6 @@ body {
     font-family: 'Raleway', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
     height: 100vh;
-    width: 100vw;
 
     display: flex;
     justify-content: space-between;
@@ -23,10 +22,10 @@ body {
 
  /* Hero Section */
 #hero-section {
-    padding:2rem 20rem;
+    padding:2rem 15rem;
     background-color: #1F2937;
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
 }
 
 /* Navbar */
@@ -60,16 +59,12 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 4rem;
+    height: 90vh;
 
-    height: inherit;
 }
 
 
-.all {
-    display: flex;
-    justify-content: space-between;
-    gap: 5rem;
-} 
 
 .left-main {
     min-width: 35rem;
@@ -101,14 +96,3 @@ a {
     min-width: 50%;
     min-height: 20rem;
 }
-
-img {
-    height: 100%;
-    width: 100%;
-}
-
-
-
-
-/* #1F2937 Background Color */
-

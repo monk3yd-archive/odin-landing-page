@@ -13,19 +13,17 @@ body {
 
     font-size: 1.8rem;
     font-family: 'Raleway', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
-    height: 100vh;
 
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+
 }
 
  /* Hero Section */
 #hero-section {
-    padding:2rem 15rem;
+    padding:2rem 7rem;
     background-color: #1F2937;
     height: 100vh;
-    width: 100vw;
 }
 
 /* Navbar */
@@ -61,10 +59,7 @@ a {
     justify-content: center;
     gap: 4rem;
     height: 90vh;
-
 }
-
-
 
 .left-main {
     min-width: 35rem;
@@ -95,4 +90,51 @@ a {
     height: auto;
     min-width: 50%;
     min-height: 20rem;
+}
+
+/* Information Section */
+#information-section {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+h2 {
+    font-size: 3.6rem;
+    font-weight: 800;
+    color: #1F2937;
+    padding: 2rem;
+    margin: 3rem;
+    align-self: center;
+}
+
+.information-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.information-box div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.information-box p {
+    color: #1F2937;
+    font-size: 1.8rem;
+    width: 25rem;
+    line-height: 1.5;
+    padding: 1rem 0;
+}
+
+.square {
+    height: 25rem;
+    width: 25rem;
+    border: 2px solid #3882F6;
+    border-radius: 1rem;
 }
